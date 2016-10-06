@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D5C5F3861DA68F9F006EB69F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5F3851DA68F9F006EB69F /* AppDelegate.swift */; };
-		D5C5F3881DA68F9F006EB69F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5F3871DA68F9F006EB69F /* ViewController.swift */; };
 		D5C5F38B1DA68F9F006EB69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C5F3891DA68F9F006EB69F /* Main.storyboard */; };
 		D5C5F38D1DA68F9F006EB69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C5F38C1DA68F9F006EB69F /* Assets.xcassets */; };
 		D5C5F3901DA68F9F006EB69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C5F38E1DA68F9F006EB69F /* LaunchScreen.storyboard */; };
+		D5C5F3981DA68FF1006EB69F /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5F3971DA68FF1006EB69F /* FantasticView.swift */; };
+		D5C5F39A1DA692D6006EB69F /* FantasticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5F3991DA692D6006EB69F /* FantasticViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D5C5F3821DA68F9F006EB69F /* FantasticView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasticView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C5F3851DA68F9F006EB69F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5C5F3871DA68F9F006EB69F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D5C5F38A1DA68F9F006EB69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5C5F38C1DA68F9F006EB69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5C5F38F1DA68F9F006EB69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5C5F3911DA68F9F006EB69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C5F3971DA68FF1006EB69F /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
+		D5C5F3991DA692D6006EB69F /* FantasticViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				D5C5F3851DA68F9F006EB69F /* AppDelegate.swift */,
-				D5C5F3871DA68F9F006EB69F /* ViewController.swift */,
 				D5C5F3891DA68F9F006EB69F /* Main.storyboard */,
 				D5C5F38C1DA68F9F006EB69F /* Assets.xcassets */,
 				D5C5F38E1DA68F9F006EB69F /* LaunchScreen.storyboard */,
 				D5C5F3911DA68F9F006EB69F /* Info.plist */,
+				D5C5F3971DA68FF1006EB69F /* FantasticView.swift */,
+				D5C5F3991DA692D6006EB69F /* FantasticViewController.swift */,
 			);
 			path = FantasticView;
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C5F3881DA68F9F006EB69F /* ViewController.swift in Sources */,
+				D5C5F3981DA68FF1006EB69F /* FantasticView.swift in Sources */,
 				D5C5F3861DA68F9F006EB69F /* AppDelegate.swift in Sources */,
+				D5C5F39A1DA692D6006EB69F /* FantasticViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
